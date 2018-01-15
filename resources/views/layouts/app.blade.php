@@ -10,7 +10,11 @@
 <body>
     @include('inc.navbar')
 
+<br/>
     <div class="container">
+    @if(Request::is('/'))
+        @include('inc.showcase')
+    @endif
         <div class="row">
             <div class="col-md-8 col-lg-8">
                 @yield('content')
@@ -20,6 +24,10 @@
             </div>
         </div>
     </div>
+
+    <footer class="text-center" id="footer">
+        <p>Copyright 2018 &copy; Eimutis</p>
+    </footer>
 
 </body>
 </html>
