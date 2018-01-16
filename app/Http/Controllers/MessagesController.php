@@ -29,4 +29,10 @@ class MessagesController extends Controller
         //return 'Success';
         //return $request->input('name'); 
     }
+
+    public function getMessages(){
+        $messages = Message::all();
+
+        return view('messages')->with('messages', $messages);
+    }
 }
