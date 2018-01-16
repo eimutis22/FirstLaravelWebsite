@@ -1,2 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css);#footer {
+  margin-top: 30px;
+  padding: 20px;
+  color: white;
+  background: #333;
+}
 
